@@ -15,5 +15,9 @@ public class Application {
         ArrayToDataset arrayToDatasetApp = new ArrayToDataset();
         arrayToDatasetApp.start();
 
+        System.out.println("\n\n ---- Part 2 - Running CsvToDatasetHousetoDataframe \n");
+
+        CsvToDatasetHouseToDataframe csvApp = new CsvToDatasetHouseToDataframe();
+        csvApp.start();
     }
 }
