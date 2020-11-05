@@ -19,5 +19,11 @@ public class Application {
 
         CsvToDatasetHouseToDataframe csvApp = new CsvToDatasetHouseToDataframe();
         csvApp.start();
+
+        System.out.println("\n\n ---- Part 3 - Running WordCount \n");
+
+        WordCount wordCount = new WordCount();
+        wordCount.start();
+
     }
 }
